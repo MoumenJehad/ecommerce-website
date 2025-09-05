@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>تفاصيل المنتج</title>
+  <style>
+    .product-container {
+      text-align: center;
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px #999;
+    }
+    .product-container:hover{
+      box-shadow: 0px 0px 10px #777;
+    }
+    
+    .product-image {
+      width: 100%;
+      max-width: 400px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    
+    .product-price {
+      font-weight: bold;
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    .product-description {
+      margin-bottom: 20px;
+      color: #555;
+    }
+    
+    .buy-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 16px;
+      font-weight: 800;
+      text-decoration: none;
+      border-radius: 3px;
+      transition: background-color 0.3s ease;
+    }
+    
+    .buy-button:hover {
+      background-color: #45a049;
+    }
+  </style>
+      <link rel="stylesheet" href="css/styles.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <a href="index.html"><img src="images/logoW.png" alt="شعار الموقع" width="200" height="auto"></a>
+        </div>
+        <nav class="menu">
+          <ul>
+            <li><a href="index.html">الصفحة الرئيسية</a></li>
+            <li><a href="products.html">المنتجات</a></li>
+            <li><a href="aboutUs.html">من نحن</a></li>
+            <li><a href="callUs.html">اتصل بنا</a></li>
+          </ul>
+        </nav>
+    
+        <div class="search-box">
+            <input type="text" id="searchInput" placeholder="ابحث..." dir="rtl" />
+            <button class="search-button" id="searchButton"><i class="fas fa-search"></i></button>
+        </div>&ThinSpace;&ThinSpace;&ThinSpace;&ThinSpace;&ThinSpace;&ThinSpace;&ThinSpace;&ThinSpace;&ThinSpace;&ThinSpace;
+    
+        <div class="social-icons">
+          <button id="socialButton"><i class="fas fa-ellipsis-h"></i></button>
+          <div class="popup" id="popup">
+            <a href="https://www.facebook.com/zuck/?locale=ar_AR" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/elonmusk?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/cristiano/?hl=ar" target="_blank"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>
+      </header><br><br>
+
+  <div class="product-container">
+    <img class="product-image" src="images/product1.jpg" alt="صورة المنتج">
+    <div class="product-price">سعر المنتج: $50</div>
+    <div class="product-description">
+      وصف المنتج: هذا المنتج هو منتج رائع يقدم فوائد عديدة للمستخدمين. يتميز بجودته العالية وأدائه الممتاز. احصل على هذا المنتج اليوم واستمتع بفوائده الفريدة!
+    </div>
+    <a class="buy-button" href="buying.html">شراء</a>
+  </div>
+  <br><br>
+  <footer>
+    <div class="footer-content">
+      <p>2023 &copy; جميع الحقوق محفوظة</p>
+    </div>
+  </footer>
+  <script src="Javascript/script.js"></script>
+</body>
+</html>
